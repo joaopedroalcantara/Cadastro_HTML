@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<header>
+    <title>Cadastro</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #131010;
+        }
+
+        form {
+            background-color: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+        
+    </style>
+
+</header>
+
+<body>
+    <div style="text-align: center;">
+        <h1>Cadastro</h1>
+    </div>
+    <hr>
+    <br><br>
+
+    <div>
+        <form>
+            <label for="nome">Nome: </label>
+            <input type="text" placeholder="Digite seu nome" size="30" required>
+
+            <br><br>
+
+            <label for="CPF">CPF: </label>
+            <input type="number" placeholder="Digite seu CPF" size="30" required>
+            
+            <br><br>
+
+            <label for="Data">Data de Nascimento: </label>
+            <input type="date" placeholder="Data de Nascimento" size="30" required>
+
+            <br><br>
+
+            <label for="Genero">Genero:</label>
+            <select>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outros</option>
+            </select>
+
+            <br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" placeholder="Digite seu email" size="30" required>
+
+            <br><br>
+
+            <label for="experiencias">Experiencias: </label>
+            <input type="text" placeholder="Digite suas experiencias brevemente: " size="50" required>
+
+            <br><br>
+
+            <label for="Cursos"><b>Curso Matriculado: </b></label>
+            <br>
+
+            <label for="ADS">ADS </label>
+            <input type="radio" name="curso">
+            <br>
+
+            <label for="SI">SI</label>
+            <input type="radio" name="curso">
+            <br>
+
+            <label for="Engenharia de Software">Engenharia de Software</label>
+            <input type="radio" name="curso">
+            <br>
+
+            <br><br>
+            <input type="submit" placeholder="Cadastrar" size="20">
+
+        </form>
+    </div>
+
+</body>
+
+<footer style="text-align: center;">
+    <hr>
+    <p>Desenvolvido por Felipe Soares e João Pedro A</p>
+</footer>
+
+</html>
